@@ -309,37 +309,11 @@ We welcome contributions to improve the model and analysis. Please follow these 
 
 Please report bugs, feature requests, or questions via [GitHub Issues](https://github.com/YourUsername/dengue-multiserotype-abm/issues).
 
-## Citation
-
-If you use this model in your research, please cite:
-
-```bibtex
-@article{superagents2025dengue,
-  title={An Agent-Based Model for Multi-Serotype Dengue Transmission},
-  author={Bandara, W.M.S.C. and Mediwake, M.W.N.V. and Jayanath, S.K.K.T. and Liyanage, B.L.D.H.K. and Wimalasuriya, S.M.},
-  journal={Journal Name},
-  year={2024},
-  doi={10.xxxx/xxxx}
-}
-```
-
-**Software citation:**
-```bibtex
-@software{dengue_abm_2024,
-  title={Multi-Serotype Dengue Agent-Based Model},
-  author={Bandara, W.M.S.C. and others},
-  year={2024},
-  url={https://github.com/YourUsername/dengue-multiserotype-abm},
-  version={1.0}
-}
-```
-
-
 ## Contact
 
 **Research Supervisor**: Dr. Sudam Surasinghe  
 **Institution**: Department of Mathematics, University of Colombo  
-**Email**: [email@university.edu]
+**Email**: [sudameng@gmail.com]
 
 **Student Researchers**:
 - Bandara W.M.S.C. (s16316)
