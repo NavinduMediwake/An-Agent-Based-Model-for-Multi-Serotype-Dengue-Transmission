@@ -3,7 +3,7 @@
 [![NetLogo](https://img.shields.io/badge/NetLogo-6.3.1-blue.svg)](https://ccl.northwestern.edu/netlogo/)
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxx-blue.svg)](https://doi.org/10.xxxx/xxxx)
+
 
 A comprehensive agent-based model for simulating multi-serotype dengue transmission dynamics with quantified antibody-dependent enhancement (ADE) mechanisms, vector demographic processes, and environmental stochasticity.
 
@@ -29,7 +29,7 @@ A comprehensive agent-based model for simulating multi-serotype dengue transmiss
 
 This repository contains the implementation and analysis code for a spatially explicit agent-based model of multi-serotype dengue transmission developed in NetLogo 6.3.1. The model incorporates research-calibrated mechanisms including quantified antibody-dependent enhancement, vertical transmission in mosquitoes, demographic vector dynamics, and environmental rainfall effects.
 
-**Research Paper**: Bandara W.M.S.C. et al. "An Agent-Based Model for Multi-Serotype Dengue Transmission" (2024)
+
 
 ## Key Features
 
