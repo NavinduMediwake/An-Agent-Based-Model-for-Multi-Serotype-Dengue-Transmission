@@ -236,30 +236,6 @@ Email: sudameng@gmail.com
 
 **Institution**: University of Colombo, Sri Lanka
 
----
-
-## Citation
-
-If you use this model in your research, please cite:
-
-```bibtex
-@software{dengue_multiserotype_abm,
-  title={Multi-Serotype Dengue Agent-Based Model with ADE Mechanisms},
-  author={Bandara, W.M.S.C. and Mediwake, M.W.N.V. and Jayanath, S.K.K.T. and Liyanage, B.L.D.H.K. and Wimalasuriya, S.M.},
-  supervisor={Surasinghe, Sudam},
-  year={2025},
-  institution={University of Colombo},
-  url={https://github.com/yourusername/dengue-multiserotype-abm}
-}
-```
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Keywords
 
