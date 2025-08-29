@@ -686,9 +686,9 @@ end
 ;---------------------------------
 @#$#@#$#@
 GRAPHICS-WINDOW
-231
+471
 10
-888
+1128
 668
 -1
 -1
@@ -713,25 +713,25 @@ ticks
 30.0
 
 SLIDER
-20
-29
-192
-62
+259
+67
+468
+100
 initial-mosquitoes
 initial-mosquitoes
 10
 200
-123.0
+129.0
 1
 1
 NIL
 HORIZONTAL
 
 BUTTON
-20
-70
-83
-103
+170
+10
+233
+43
 setup
 setup
 NIL
@@ -745,10 +745,10 @@ NIL
 1
 
 BUTTON
-103
-71
-166
-104
+243
+10
+306
+43
 go
 go
 T
@@ -762,11 +762,11 @@ NIL
 1
 
 PLOT
-1129
-10
-1329
-160
-plot 1
+1342
+631
+1542
+781
+Mosquito Count
 NIL
 NIL
 0.0
@@ -785,10 +785,10 @@ PENS
 "pen-5" 1.0 0 -1184463 true "" "plot count mosquitoes with [mtype = 5]"
 
 SLIDER
-19
-114
-191
-147
+255
+400
+467
+433
 initial-rain
 initial-rain
 0
@@ -799,26 +799,11 @@ initial-rain
 NIL
 HORIZONTAL
 
-SLIDER
-19
-154
-191
-187
-random-fluctuation?
-random-fluctuation?
-0
-1
-1.0
-1
-1
-NIL
-HORIZONTAL
-
 MONITOR
-1129
-170
-1239
-215
+1336
+269
+1446
+314
 count mosquitoes
 count mosquitoes
 17
@@ -826,10 +811,10 @@ count mosquitoes
 11
 
 MONITOR
-1260
-170
-1322
-215
+307
+573
+425
+618
 rain-rate
 rain-rate
 17
@@ -837,81 +822,81 @@ rain-rate
 11
 
 SLIDER
-23
-228
-195
-261
+260
+106
+468
+139
 initial-humans
 initial-humans
 0
 1000
-567.0
+677.0
 1
 1
 NIL
 HORIZONTAL
 
 SLIDER
-21
-279
-193
-312
+259
+330
+469
+363
 bite-rate
 bite-rate
 0
 1
-1.0
+0.64
 0.01
 1
 NIL
 HORIZONTAL
 
 SLIDER
-11
-324
-214
-357
+259
+169
+468
+202
 initial-dengue-infection-rate
 initial-dengue-infection-rate
 0
 1
-1.0
+0.54
 0.01
 1
 NIL
 HORIZONTAL
 
 SWITCH
-9
-421
-212
-454
+256
+505
+467
+538
 external-virus-introduction
 external-virus-introduction
-1
+0
 1
 -1000
 
 SLIDER
-2
-374
-225
-407
+258
+210
+468
+243
 initial-vertical-transmission-rate
 initial-vertical-transmission-rate
 0
 1
-1.0
+0.26
 0.01
 1
 NIL
 HORIZONTAL
 
 MONITOR
-1128
-226
-1259
-271
+1512
+16
+1643
+61
 NIL
 humans-in-mild-stage
 17
@@ -919,54 +904,10 @@ humans-in-mild-stage
 11
 
 MONITOR
-1130
-296
 1339
-341
-NIL
-humans-in-severe-stage-serotype2
-17
-1
-11
-
-MONITOR
-1131
-364
-1340
-409
-NIL
-humans-in-severe-stage-serotype3
-17
-1
-11
-
-MONITOR
-1130
-424
-1335
-469
-NIL
-humans-in-critical-stage-serotype4
-17
-1
-11
-
-MONITOR
-910
-174
-1027
-219
-NIL
-total-severe-cases
-17
-1
-11
-
-MONITOR
-911
-228
-1061
-273
+10
+1506
+55
 NIL
 infection-stage-summary
 17
@@ -974,10 +915,10 @@ infection-stage-summary
 11
 
 SLIDER
-10
+259
+291
 469
-182
-502
+324
 human-recovery-rate
 human-recovery-rate
 0
@@ -989,10 +930,10 @@ NIL
 HORIZONTAL
 
 MONITOR
-910
-282
-1028
-327
+1454
+475
+1560
+520
 NIL
 total-dead-humans
 17
@@ -1000,10 +941,10 @@ total-dead-humans
 11
 
 SLIDER
-16
-518
-217
-551
+259
+250
+469
+283
 initial-human-recovery-rate
 initial-human-recovery-rate
 0
@@ -1015,10 +956,10 @@ NIL
 HORIZONTAL
 
 MONITOR
-910
-336
-1061
-381
+1650
+19
+1801
+64
 NIL
 total-susceptible-humans
 17
@@ -1026,10 +967,10 @@ total-susceptible-humans
 11
 
 MONITOR
-910
-391
-1057
-436
+1649
+113
+1800
+158
 NIL
 total-recovered-humans
 17
@@ -1037,10 +978,10 @@ total-recovered-humans
 11
 
 MONITOR
-1122
-496
-1303
-541
+1567
+316
+1748
+361
 NIL
 humans-with-primary-infection
 17
@@ -1048,10 +989,10 @@ humans-with-primary-infection
 11
 
 MONITOR
-1122
-560
-1319
-605
+1567
+364
+1749
+409
 NIL
 humans-with-secondary-infection
 17
@@ -1059,10 +1000,10 @@ humans-with-secondary-infection
 11
 
 MONITOR
-909
-66
-1102
-111
+1338
+112
+1507
+157
 NIL
 humans-with-multiple-recoveries
 17
@@ -1070,10 +1011,10 @@ humans-with-multiple-recoveries
 11
 
 MONITOR
-909
-13
-1082
-58
+1339
+62
+1504
+107
 NIL
 humans-with-single-recovery
 17
@@ -1081,10 +1022,10 @@ humans-with-single-recovery
 11
 
 MONITOR
-909
-122
-1044
-167
+1652
+66
+1803
+111
 NIL
 total-infected-humans
 17
@@ -1092,10 +1033,10 @@ total-infected-humans
 11
 
 MONITOR
-1124
-620
-1305
-665
+1567
+414
+1749
+459
 NIL
 humans-with-tertiary-infection
 17
@@ -1103,10 +1044,10 @@ humans-with-tertiary-infection
 11
 
 MONITOR
-1128
-677
-1330
-722
+1566
+465
+1751
+510
 NIL
 humans-with-quaternary-infection
 17
@@ -1114,21 +1055,10 @@ humans-with-quaternary-infection
 11
 
 MONITOR
-1128
-729
-1308
-774
-NIL
-total-multi-serotype-infections
-17
-1
-11
-
-MONITOR
-1130
-782
-1314
-827
+1338
+169
+1522
+214
 NIL
 humans-immune-to-1-serotype
 17
@@ -1136,10 +1066,10 @@ humans-immune-to-1-serotype
 11
 
 MONITOR
-1128
-838
-1317
-883
+1337
+217
+1522
+262
 NIL
 humans-immune-to-2-serotypes
 17
@@ -1147,10 +1077,10 @@ humans-immune-to-2-serotypes
 11
 
 MONITOR
-1130
-891
-1319
-936
+1525
+168
+1711
+213
 NIL
 humans-immune-to-3-serotypes
 17
@@ -1158,10 +1088,10 @@ humans-immune-to-3-serotypes
 11
 
 MONITOR
-1128
-942
-1317
-987
+1526
+217
+1715
+262
 NIL
 humans-immune-to-4-serotypes
 17
@@ -1169,10 +1099,10 @@ humans-immune-to-4-serotypes
 11
 
 MONITOR
-910
-447
-1065
-492
+1450
+268
+1605
+313
 NIL
 total-infected-mosquitoes
 17
@@ -1180,10 +1110,10 @@ total-infected-mosquitoes
 11
 
 MONITOR
-910
-501
-1087
-546
+1612
+269
+1778
+315
 NIL
 total-non-dengue-mosquitoes
 17
@@ -1191,10 +1121,10 @@ total-non-dengue-mosquitoes
 11
 
 MONITOR
-909
-556
-1037
-601
+1456
+569
+1569
+614
 NIL
 daily-new-recoveries
 17
@@ -1202,10 +1132,10 @@ daily-new-recoveries
 11
 
 MONITOR
-909
-609
-1018
-654
+1455
+521
+1560
+566
 NIL
 daily-new-deaths
 17
@@ -1213,10 +1143,10 @@ daily-new-deaths
 11
 
 MONITOR
-911
-663
-1059
-708
+1513
+63
+1644
+108
 NIL
 humans-in-severe-stage
 17
@@ -1224,10 +1154,10 @@ humans-in-severe-stage
 11
 
 MONITOR
-911
-720
-1055
-765
+1511
+112
+1643
+157
 NIL
 humans-in-critical-stage
 17
@@ -1235,10 +1165,10 @@ humans-in-critical-stage
 11
 
 PLOT
-61
-683
-261
-833
+1132
+10
+1332
+160
 Human SEIR
 NIL
 NIL
@@ -1256,10 +1186,10 @@ PENS
 "R" 1.0 0 -10899396 true "" "plot recovered-humans"
 
 PLOT
-321
-693
-521
-843
+1132
+163
+1332
+313
 Mosquito SI
 NIL
 NIL
@@ -1275,10 +1205,10 @@ PENS
 "I" 1.0 0 -2674135 true "" "plot infectious-mosquitoes"
 
 PLOT
-78
-855
-547
-1009
+1132
+317
+1561
+471
 Infection History Types
 NIL
 NIL
@@ -1296,10 +1226,10 @@ PENS
 "Quatenary Infections" 1.0 0 -2674135 true "" "plot humans-with-quaternary-infection"
 
 PLOT
-549
-696
-749
-846
+1134
+632
+1334
+782
 Dengue Serotype Distribution
 NIL
 NIL
@@ -1318,10 +1248,10 @@ PENS
 "Non Dengue" 1.0 0 -7500403 true "" "plot total-non-dengue-mosquitoes"
 
 PLOT
-558
-857
-875
-1007
+1134
+475
+1451
+625
 Daily Disease Events
 NIL
 NIL
@@ -1335,6 +1265,167 @@ true
 PENS
 "New Recoveries" 1.0 0 -10899396 true "" "plot daily-new-recoveries"
 "New Deaths" 1.0 0 -16777216 true "" "plot daily-new-deaths"
+
+SWITCH
+256
+465
+467
+498
+random-fluctuation?
+random-fluctuation?
+0
+1
+-1000
+
+TEXTBOX
+34
+47
+388
+70
+Population Sliders :  Control epidemic scale and speed
+14
+103.0
+1
+
+TEXTBOX
+36
+373
+403
+407
+Environmental : Simulate seasonal breeding conditions
+14
+103.0
+1
+
+TEXTBOX
+18
+440
+493
+505
+Model Controls : Enable/disable external factors for scenario testing
+14
+103.0
+1
+
+TEXTBOX
+11
+67
+247
+109
+initial-mosquitoes: Starting mosquito population. Higher values - faster disease spread
+11
+130.0
+1
+
+TEXTBOX
+12
+108
+248
+164
+initial-humans: Starting human population. Affects transmission dynamics and herd immunity
+11
+130.0
+1
+
+TEXTBOX
+14
+144
+485
+178
+Disease parameters : Adjust transmission intensity and recovery patterns
+14
+103.0
+1
+
+TEXTBOX
+6
+174
+272
+216
+initial-dengue-infection-rate: Human infection probability per bite . Key transmission driver
+11
+130.0
+1
+
+TEXTBOX
+6
+212
+256
+268
+initial-vertical-transmission-rate:Mother-to-offspring virus transfer . Maintains virus in population
+11
+130.0
+1
+
+TEXTBOX
+9
+293
+248
+349
+human-recovery-rate : Same as above - controls how quickly humans recover from infection
+11
+130.0
+1
+
+TEXTBOX
+9
+328
+270
+370
+bite-rate: Daily mosquito biting frequency . Core transmission mechanism
+11
+130.0
+1
+
+TEXTBOX
+9
+402
+268
+444
+initial-rain: Rainfall level. More rain - more breeding sites - larger mosquito population
+11
+130.0
+1
+
+TEXTBOX
+7
+252
+261
+294
+initial-human-recovery-rate: Daily recovery chance. Higher - shorter illness duration
+11
+130.0
+1
+
+TEXTBOX
+9
+465
+257
+507
+random-fluctuation?: Toggle rainfall variability. ON - realistic weather changes
+11
+130.0
+1
+
+TEXTBOX
+8
+502
+264
+558
+external-virus-introduction: Toggle new infections from outside. ON - ongoing epidemic conditions
+11
+130.0
+1
+
+TEXTBOX
+313
+549
+528
+641
+Today Rain Rate
+14
+14.0
+1
 
 @#$#@#$#@
 # Dengue-Mosquito Transmission Model ODD Description
@@ -1695,12 +1786,6 @@ Polygon -7500403 true true 30 75 75 30 270 225 225 270
 NetLogo 6.4.0
 @#$#@#$#@
 @#$#@#$#@
-1.0
-    org.nlogo.sdm.gui.AggregateDrawing 2
-        org.nlogo.sdm.gui.StockFigure "attributes" "attributes" 1 "FillColor" "Color" 225 225 182 131 63 60 40
-            org.nlogo.sdm.gui.WrappedStock "" "" 0
-        org.nlogo.sdm.gui.ConverterFigure "attributes" "attributes" 1 "FillColor" "Color" 130 188 183 175 151 50 50
-            org.nlogo.sdm.gui.WrappedConverter "" ""
 @#$#@#$#@
 <experiments>
   <experiment name="dengue_parameter_sweep_year" repetitions="20" runMetricsEveryStep="true">
