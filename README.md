@@ -22,7 +22,6 @@ A comprehensive agent-based model for simulating multi-serotype dengue transmiss
 - [Validation](#validation)
 - [Contributing](#contributing)
 - [Citation](#citation)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -315,7 +314,7 @@ Please report bugs, feature requests, or questions via [GitHub Issues](https://g
 If you use this model in your research, please cite:
 
 ```bibtex
-@article{bandara2024dengue,
+@article{superagents2025dengue,
   title={An Agent-Based Model for Multi-Serotype Dengue Transmission},
   author={Bandara, W.M.S.C. and Mediwake, M.W.N.V. and Jayanath, S.K.K.T. and Liyanage, B.L.D.H.K. and Wimalasuriya, S.M.},
   journal={Journal Name},
@@ -335,13 +334,10 @@ If you use this model in your research, please cite:
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-**Corresponding Author**: Dr. Sudam Surasinghe  
+**Research Supervisor**: Dr. Sudam Surasinghe  
 **Institution**: Department of Mathematics, University of Colombo  
 **Email**: [email@university.edu]
 
